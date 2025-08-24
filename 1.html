@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #0f081d;
+            color: #f7f2f2;
+        }
+        header {
+            background: #4e2929;
+            color: white;
+            padding: 15px 20px;
+            font: size 1em; ;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #198d87;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #0f081d;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        
+        }
+        .about p {
+            text-align: center;
+            margin-top: 15px;
+            font-size:1.875em;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .skill {
+            width: 30%;
+            background: #4e2929;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            width: 45%;
+            background: #4e2929;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .contact {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background: #4e2929;
+            color: #fff;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        @media (max-width: 768px) {
+            .skills, .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+            .skill, .project {
+                width: 90%;
+            }
+        }
+        a {
+    text-decoration: none;
+    color: #374139; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C4E3CA; 
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hello, I'm Raghav Sharma </h1>
+        
+    </div>
+
+    <section id="about" class="about">
+        
+        <p> A passionate web developer  , I take pride in crafting web applications that are not only clean and 
+            efficient, but also responsive. In addition to strong technical skills, I appreciate collaboration, 
+            industry-event focused learning, and proactive problem-solving.”
+
+    <section id="skills">
+        <h2 style="text-align:center;">Skills</h2>
+        <div class="skills">
+            <div class="skill"><h3>HTML</h3></div>
+            <div class="skill"><h3>CSS</h3></div>
+            <div class="skill"><h3>JavaScript</h3></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 style="text-align:center;">Projects</h2>
+        <div class="projects">
+            <div class="project"><h3>"Car Price Prediction"</h3><p>A machine learning project to predict car prices using regression.</p></div>
+            <div class="project"><h3>Portfolio Website</h3><p>A responsive portfolio built with HTML & CSS.</p></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: raghavsh1406@gmail.com</p>
+        <p>LinkedIn | GitHub | Twitter</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Raghav Sharma. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
