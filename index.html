@@ -112,10 +112,20 @@
     text-decoration: none;
     color: #374139; 
     font-weight: bold;
+    
 }
 
 a:hover {
     color: #C4E3CA; 
+}
+.projects a, .contact a {
+    color: white;          
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects a:hover, .contact a:hover {
+    color: #C4E3CA;         
 }
     </style>
 </head>
@@ -155,19 +165,26 @@ a:hover {
     <section id="projects">
         <h2 style="text-align:center;">Projects</h2>
         <div class="projects">
-            <div class="project"><h3>"Car Price Prediction"</h3><p>A machine learning project to predict car prices using regression.</p></div>
-            <div class="project"><h3>Portfolio Website</h3><p>A responsive portfolio built with HTML & CSS.</p></div>
+            <div class="project">
+                <h3>
+                  <a href="https://github.com/Raghavsh1406/Car-Price-Project-/blob/main/CarPricePredictionModel.ipynb" target="_blank">
+                    Car Price Prediction
+                  </a>
+                </h3>
+                <p>A machine learning project to predict car prices using regression.</p>
+              </div>
+        <div class="project"><h3>Portfolio Website</h3><p>A responsive portfolio built with HTML & CSS.</p></div>
         </div>
     </section>
 
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <p>Email: raghavsh1406@gmail.com</p>
-        <p>LinkedIn | GitHub | Twitter</p>
+        <p><a href="raghavsh1406@gmail.com" target="_blank">Email: raghavsh1406@gmail.com</a></p>
+        <p>
+            <a href="www.linkedin.com/in/raghav-sharma1406" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/Raghavsh1406" target="_blank">GitHub</a>
+          </p>
     </section>
 
-    <footer>
-        <p>© 2025 Raghav Sharma. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>
